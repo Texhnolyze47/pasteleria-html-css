@@ -1,0 +1,250 @@
+/*Estilos generales*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  .layout-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .layout-row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .width-50 {
+    width: 50%;
+  }
+  
+  .width-100 {
+    width: 100%;
+  }
+  
+  .text-big {
+    color: #707e95;
+    font-size: 23px;
+    line-height: 30px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .text-logo {
+    font-family: "Rubik", sans-serif;
+    font-size: 35px;
+    color: #ff759f;
+  }
+  
+  .text-grey {
+    font-family: "Roboto", sans-serif;
+    color: #707e95;
+  }
+  .text-blue {
+    font-family: "Roboto", sans-serif;
+    color: #2b4ac7;
+  }
+  
+  .margin {
+    padding: 40px 100px;
+  }
+  
+  .padding-l20 {
+    padding-left: 20px;
+  }
+  
+  .padding-r20 {
+    padding-right: 20px;
+  }
+  
+  .margin-g {
+    margin: 3%;
+  }
+  
+  .margin-top {
+    margin-top: 20px;
+  }
+  
+  .margin-right {
+    margin-right: 25px;
+  }
+  
+  .title {
+    font-family: "Roboto", sans-serif;
+    color: #1f3e72;
+    font-size: 40px;
+    margin-bottom: 25px;
+  }
+  
+  /*
+  nav bar
+  */
+  #cabecero {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 120px;
+    z-index: 1;
+  }
+  
+  .logo {
+    flex-grow: 10;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  #menu {
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    flex-grow: 2;
+  }
+  
+  #menu > ul {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    height: 100%;
+    margin-right: 10px;
+    align-content: center;
+  }
+  
+  
+  #menu a {
+    padding: 20px;
+    color: #707e95;
+  }
+  
+  .button {
+    font-family: "Roboto", sans-serif;
+    background-color: #ff759f;
+    border: 0;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #f1f5ff;
+    transition-duration: .5s;
+  }
+  
+  .button:hover {
+    background-color: #f1f5ff;
+    color: #ff759f;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 50px;
+}
+.slider-frame {
+	width: 100%;
+    height: 700px;
+	margin: auto 0;
+	overflow: hidden;
+}
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: slide 20s infinite alternate ease-in-out;
+}
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+.slider-frame img {
+	width: 100%;
+}
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    width: 100%;
+    height: 150px;
+  }
+  .text {
+    padding-right: 155px;
+    padding-left: 155px;
+    color: black;
+  }
+  .title {
+    padding-right: 155px;
+    padding-left: 155px;
+  }
+  .marca {
+    display: flex;
+    flex-direction: row;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+  }
+  .title-pink {
+    color: #ff759f;
+    padding-right: 10px;
+  }
+  .title-blue {
+    color: #5bc0eb;
+  }
+
+  .title {
+    margin-top: 15px;
+    color: #ff759f;
+  }
+  .container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+  }
+  .frame {
+    margin-top: 10px;
+    margin-left: 150px;
+    width: 300px;
+    height: 480px;
+  }
+  .imagen-container {
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+  }
+  .text-justify {
+    text-justify: auto;
+    padding: 10px;
+  }
+
+  .titulo-about{
+    color: #ff759f;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 150px;
+  }
+  
+  .text-about{
+    color: #707e95;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 50px;
+  }

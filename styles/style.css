@@ -1,0 +1,88 @@
+/*Estilos generales*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  .espacio {
+    padding-top: 140px;
+  }	
+  
+  .layout-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .layout-row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .width-50 {
+    width: 50%;
+  }
+  
+  .width-100 {
+    width: 100%;
+  }
+  
+  .text-big {
+    color: #707e95;
+    font-size: 23px;
+    line-height: 30px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .text-logo {
+    font-family: "Rubik", sans-serif;
+    font-size: 35px;
+    color: #ff759f;
+  }
+  
+  .text-grey {
+    font-family: "Roboto", sans-serif;
+    color: #707e95;
+  }
+  .text-blue {
+    font-family: "Roboto", sans-serif;
+    color: #2b4ac7;
+  }
+  
+  .margin {
+    padding: 40px 100px;
+  }
+  
+  .padding-l20 {
+    padding-left: 20px;
+  }
+  
+  .padding-r20 {
+    padding-right: 20px;
+  }
+  
+  .margin-g {
+    margin: 3%;
+  }
+  
+  .margin-top {
+    margin-top: 20px;
+  }
+  
+  .margin-right {
+    margin-right: 25px;
+  }
+  
+  .title {
+    font-family: "Roboto", sans-serif;
+    color: #1f3e72;
+    font-size: 40px;
+    margin-bottom: 25px;
+  }
+  
