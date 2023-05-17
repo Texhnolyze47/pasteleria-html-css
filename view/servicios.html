@@ -4,43 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/servicios.css">
-    <link rel="stylesheet" href="../styles/navbar.css">
-    <link rel="stylesheet" href="../styles/footer.css">
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/styles.css">
     <title>Document</title>
 </head>
 <body>
-  <div id="nav-bar">
-    <header id="cabecero" class="margin width-100" style="display: flex; align-items: center;">
-      <h1 class="logo" style="display: flex; align-items: center;">
-        <img src="https://circumicons.com/icon/wheat?fill=ff759f&size=72" alt="" srcset="">
-        <a class="text-logo" href="../index.html" style="text-decoration: none; margin-left: 10px;">Pasteleria cereza</a>
-      </h1>
-      <nav id="menu">
-        <ul>
-          <li>
-            <a href="../index.html">Inicio</a>
-          </li>
-          <li>
-            <a href="./about.html">Quienes somos</a>
-          </li>
-          <li>
-            <a href="./servicios.html">Servicio</a>
-          </li>
-          <li>
-            <a href="./contacto.html">Contactos</a>
-          </li>
-        </ul>
-      </nav>
-      <a class="box-botton" href="#">
-        <input class="button" type="button" value="Pedido" />
-      </a>
-    </header>
-  </div>
-          <div class="espacio">
+  <header id="cabecero">
+    <div class="logo">
+      <img src="https://circumicons.com/icon/wheat?fill=ff759f&size=72" alt="" srcset="">
+      <a class="text-logo" href="../index.html">Pasteleria cereza</a>
+    </div>
+    <nav id="menu">
+      <ul>
+        <li>
+          <a href="../index.html">Inicio</a>
+        </li>
+        <li>
+          <a href="#">Quienes somos</a>
+          <ul>
+            <li><a href="mision.html">Mision</a></li>
+            <li><a href="vision.html">Visión</a></li>
+            <li><a href="valores.html">Valores</a></li>
+          </ul>        </li>
+        <li>
+          <a href="servicios.html">Servicio</a>
+          <ul>
+            <li><a href="diseños.html">Diseños</a></li>
+            <li><a href="precios.html">Precios</a></li>
+            <li><a href="promocional.html">Promocional</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="contacto.html">Contactos</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-          </div>
     <div class="layout">
         <div class="mitad">
           <form id="form-pe" @submit.prevent="formP">
@@ -94,28 +93,24 @@
           </ul>
         </div>
       </div>
-
-      <div class="container-footer">
-        <footer>
-          <div class="title-footer marca-footer">
-            <h2 class="title-pink-footer">Pasteleria</h2>
-            <h2 class="title-blue-footer">cereza</h2>
+      
+      <footer id="footer">
+        <div class="container-footer">
+          <h1>Pasteleria La cereza</h1>
+          <div class="footer-info">
+            <h3>Informacion de contacto: info</h3>
+            <p>Telefono: 123456789</p>
+            <p>Correo:pasteleria@mail.com</p>
+            <p>Direccion: Direccion</p>
+          </div>
+          <div class="footer-redes">
+            <h3>Redes sociales</h3>
+            <p>Facebook</p>
+            <p>Instagram</p>
+            <p>Twitter</p>
+          </div>
         </div>
-          <div class="text-footer">
-            <p>Dirección: Av. las Torres</p>
-            <p>Teléfono: 2222222222</p>
-            <p>Horario: 10am - 5:00pm</p>
-          </div>
-          <div class="text-footer">
-            <p>Acerca de nosotros</p>
-            <p>Aviso Legal</p>
-            <p>Política de de cancelación</p>
-          </div>
-        </footer>
-      </div>
-      <div>
-        <p>Hecho por Ivan Ramírez</p>
-      </div>
+      </footer>
 
 </body>
 </html>
